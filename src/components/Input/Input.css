@@ -1,0 +1,13 @@
+input {
+  margin-bottom: 0.5rem;
+}
+.create {
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color-nemo);
+  color: var(--color-foam);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
