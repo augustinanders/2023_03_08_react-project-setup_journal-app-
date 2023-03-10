@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  padding: 0 10vw 0;
+}
+
+.form h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
