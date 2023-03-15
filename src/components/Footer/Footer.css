@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--color-granite);
+  color: var(--color-foam);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
