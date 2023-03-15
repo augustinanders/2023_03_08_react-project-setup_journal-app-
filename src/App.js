@@ -14,7 +14,7 @@ function App() {
       <Main>
         <Form />
         <section className="entries">
-          <EntriesNavigation></EntriesNavigation>
+          <EntriesNavigation />
           <section className="card-section">
             <EntriesCard />
           </section>
