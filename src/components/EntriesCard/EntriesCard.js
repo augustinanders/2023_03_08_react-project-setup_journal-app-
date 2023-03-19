@@ -1,15 +1,11 @@
-import CardDate from "../CardDate/CardDate";
-import CardTitle from "../CardTitle/CardTitle";
+import CardData from "../CardData/CardData";
 import CardText from "../CatdText/CardText";
-import Star from "../Star/Star";
+import "./EntriesCard.css";
 
 export default function EntriesCard() {
   return (
     <article className="entries-card">
-      {" "}
-      <CardDate />
-      <CardTitle />
-      <Star />
+      <CardData />
       <CardText />
     </article>
   );

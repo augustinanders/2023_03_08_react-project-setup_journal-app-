@@ -1,5 +1,6 @@
 import Badge from "../Badge/Badge";
 import Tab from "../Tab/Tab";
+import "./EntriesNavigation.css";
 
 export default function EntriesNavigation() {
   return (
