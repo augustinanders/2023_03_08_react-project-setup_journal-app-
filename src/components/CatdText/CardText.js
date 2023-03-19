@@ -1,3 +1,5 @@
+import "./CardText.css";
+
 export default function CardText() {
   return (
     <p className="entries-card__text">
