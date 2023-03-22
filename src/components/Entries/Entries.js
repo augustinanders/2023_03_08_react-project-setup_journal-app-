@@ -7,14 +7,19 @@ export default function Entries({ entries }) {
     <section className="entries">
       <EntriesNavigation />
       <section className="card-section">
-        {entries.map((entry) => {
+        {entries.map((entry, index) => {
+          console.log("index", index);
+
           return (
-            <EntriesCard
-              key={entry.id}
-              motto={entry.motto}
-              date={entry.date}
-              notes={entry.notes}
-            />
+            <>
+              {index > 0 && <div className="space"></div>}
+              <EntriesCard
+                key={entry.id}
+                motto={entry.motto}
+                date={entry.date}
+                notes={entry.notes}
+              />
+            </>
           );
         })}
       </section>

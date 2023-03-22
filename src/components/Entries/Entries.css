@@ -5,3 +5,8 @@
   padding: 0 10vw 0;
   align-items: center;
 }
+
+.space {
+  background-color: var(--color-granite);
+  height: 0.7rem;
+}
